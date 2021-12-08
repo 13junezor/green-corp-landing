@@ -29,18 +29,18 @@ body {
     color: #fff;
     background-color: #23a030;
     border: none;
-    
-    border-radius: 15px;
+        border-radius: 15px;
     cursor: pointer;
     box-shadow: 0 16px 36px rgb(52 213 68 / 22%);
     padding: 15px;
-  }
+      }
   .about__image {
     width: 500px;
   }
    
   .about__sun—image {
     width: 100px;
+    display: flex; justify-content: space-between; align-items: flex-start;
     height: 100px;
   }
     
@@ -72,3 +72,82 @@ body {
   .about__info  {
     max-width: 550px;
   }
+  .form__container {
+    width: 550px;
+  }
+  .form {
+    display: flex;
+    justify-content: center;
+    background-color: #1D263A;
+    color: #fff;
+    padding-top: 115px; padding-bottom: 115px;
+    text-align: center;
+  }
+  .form h1 {
+    font-size: 48px;
+  }
+  .forp p1 {
+    font-size: 18px;
+    opacity: 0.65;
+  }
+.form_group {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.form form {
+  display:grid;
+  gap: 20px;
+  margin-top: 60;
+}
+ .form label {
+   font-size: 18px;
+   font-weight: 600;
+   margin-bottom: 15px;
+ }
+ .form input {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 15px;
+ }
+ .form select {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 15px;
+ }
+ button:hover {
+  background-color: #f6980c;
+  box-shadow: 0 16px 36px rgba(246 152 12 / 20%);
+  transition: bbackground-color 1s ease-in;
+ }
+ .footer {
+   padding-top: 90px;
+  padding-bottom: 90px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 600;
+  font-size: 16px;
+ }
+ .footer_container {
+   display: flex;
+   justify-content: center;
+ }
+ .footer_copyright {
+margin-top: 40px;
+text-align: center;
+opacity: 0.5;
+ }
+
+ .footer_group {
+   margin-right: 80px;
+    }
+.footer_container h3 {
+  font-size: 16px;
+  opacity: 0.7;
+  margin-bottom: 30px;
+}
+
+.footer_links {
+  display: flex;
+  flex-direction: column;
+}

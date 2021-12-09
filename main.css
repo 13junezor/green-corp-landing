@@ -42,6 +42,10 @@ body {
     width: 100px;
     display: flex; justify-content: space-between; align-items: flex-start;
     height: 100px;
+    animation-name: rotation;
+    animation-duration:10s;
+  animation-iteration-count:infinite;
+  animation-timing-function: linear;
   }
     
   .about {
@@ -150,4 +154,13 @@ opacity: 0.5;
 .footer_links {
   display: flex;
   flex-direction: column;
+}
+@keyframes rotation {
+  0% {
+    transform:rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+
 }

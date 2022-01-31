@@ -4,6 +4,17 @@ body {
     margin: 0;
   }
    
+  /* анимация */
+.orb-canvas {
+position: absolute;
+top: 0;
+right: 0;
+height: 100%;
+}
+.about {
+  position: relative;
+}
+
   header {
     display: flex;
     justify-content: space-between;
@@ -58,6 +69,7 @@ body {
     margin: 1 0.5rem;
   }
   .about {
+    
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -186,7 +198,7 @@ body {
   color: #22a030;
 }
 
-}
+
     .card p {
       font-size: 16px;
 line-height: 22px;
@@ -207,7 +219,7 @@ opacity: 0.8;
     }
     
     .features__feedback-left {
-      margin-right: 10px;
+      margin-left: 35px;
     }
     
     .features__feedback-left h2 {
@@ -241,11 +253,14 @@ opacity: 0.8;
       background-color: #dc5e26;
       box-shadow: 0 6px 0 rgb(221 95 38 / 20%);
       margin-right: 30px;
+           
     }
     
     .features__rate-box {
       background-color: #1D263A;
       box-shadow: 0 6px 0 rgb(29 38 58 / 20%);
+      margin-right: 30px;
+      padding: 0px 40px 25px 40px;
     }
     
     .stars {
@@ -406,6 +421,8 @@ opacity: 0.5;
       margin-right: 0;
       margin-bottom: 30px;
   }
+
+
   .promo {
       flex-direction: column-reverse;
   }
